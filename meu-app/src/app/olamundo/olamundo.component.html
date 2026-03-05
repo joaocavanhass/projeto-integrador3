@@ -1,1 +1,27 @@
-<p>olamundo works!</p>
+<div class="container">
+    <div class="container-formulario">
+        <form class="formulario" #frm="ngForm" (ngSubmit)="calcularSoma()">
+            <h2>Calculadora</h2>
+
+            <label for="num1">Número 1</label>
+            <input type="number" name="num1" id="num1" [(ngModel)]="num1">
+
+            <label for="num2">Número 2</label>
+            <input type="number" name="num2" id="num2" [(ngModel)]="num2">
+
+            <button type="submit">Somar</button>
+            <button type="reset" (click)="Limpar()">Limpar</button>
+        </form>
+
+        @if(res) {
+            <div class="mostrar-resultado">
+                <p>Resultado: <span id="resultado">{{ res }}</span></p>
+            </div>
+        } @else {
+            <div class="mostrar-resultado">
+            <p>Resultado: <span id="resultado">é zero, burro!!!!</span></p>
+        </div>
+        }
+
+    </div>
+</div>
