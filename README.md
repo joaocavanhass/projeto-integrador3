@@ -1,6 +1,6 @@
-# <div class="container">
-#    <h1>Lista de compras</h1>
-#   <form class="add-item" #frm="ngForm" (ngSubmit)="adicionarItem()">
+ <div class="container">
+#   <h1>Lista de compras</h1>
+   <form class="add-item" #frm="ngForm" (ngSubmit)="adicionarItem()">
 #        <label for="item">Item desejado:</label>
 #       <input type="text" name="item" id="item" [(ngModel)]="item">
 #        <button type="submit">Adicionar</button>
@@ -8,7 +8,7 @@
 #        <button type="button">Apagar</button>
 #    </form>
 
-#    <table>
+    <table>
 #        <thead>
 #            <tr>
 #                <th>#</th>
