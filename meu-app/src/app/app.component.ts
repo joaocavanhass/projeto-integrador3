@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
-// import { RouterOutlet } from '@angular/router';
-import { OlamundoComponent } from './olamundo/olamundo.component';
+//import { RouterOutlet } from '@angular/router';
+import { ListaComponent } from './lista/lista.component';
+
 
 @Component({
   selector: 'app-root',
-  // preciso colocar minha biblioteca aqui
-  imports: [OlamundoComponent],
+  //Preciso colocar minha biblioteca aqui
+  imports: [ListaComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
