@@ -1,0 +1,15 @@
+2026-04-01 22:05:42.877830-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_PRODUTO" not found (this database is empty); SQL statement:
+select p1_0.id,p1_0.nome,p1_0.preco from tb_produto p1_0 [42104-240]
+2026-04-01 22:05:50.661622-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_PRODUTO" not found (this database is empty); SQL statement:
+select p1_0.id,p1_0.nome,p1_0.preco from tb_produto p1_0 [42104-240]
+2026-04-01 22:09:56.872497-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUTO" not found (this database is empty); SQL statement:
+select p1_0.id,p1_0.nome,p1_0.preco from produto p1_0 [42104-240]
+2026-04-01 22:10:15.022813-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUTO" not found (this database is empty); SQL statement:
+select p1_0.id,p1_0.nome,p1_0.preco from produto p1_0 [42104-240]
+2026-04-01 22:37:16.973592-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUTO" not found (this database is empty); SQL statement:
+select p1_0.id,p1_0.nome,p1_0.preco from produto p1_0 [42104-240]
